@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+ul {
+    /* yaziyi ortalamak icin kullandim */
+    text-align: center; 
+    
+}
+li {
+    /* sirasiz listedeki noktalari ortalamak icin kullandim */
+    list-style-position: inside;
+    display: inline;
+    padding: 15px;
+}
