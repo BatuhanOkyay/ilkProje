@@ -2,22 +2,37 @@ h1 {
     text-align: center;
     color: red;
 }
+
 ul {
     /* yaziyi ortalamak icin kullandim */
-    text-align: center; 
+    text-align: center;
     padding: 0;
     margin: 0;
     list-style-position: inside;
-    
+
 }
-li {
+
+.yatay li{
     /* sirasiz listedeki noktalari ortalamak icin kullandim */
     list-style-position: inside;
     display: inline;
     padding: 15px;
+    list-style-type: none;
 }
 
+h2,
 h3 {
     text-align: center;
     color: purple;
 }
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.dikey ul li {
+    display: block;
+}
+
+
